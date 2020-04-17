@@ -23,6 +23,16 @@
   }
 
   .title {
-    margin: auto;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #timeNow{
+    width: 330px;
+    height: 40px;
+ 
+    border-radius: 5px;
+    color: rosybrown
+
   }
