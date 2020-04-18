@@ -30,3 +30,20 @@
     border-radius: 5px;
     color: black
   }
+
+.btn {
+  btn-primary
+  outline: solid 2px black;
+}
+
+.past{
+  background-color: grey;
+}
+
+.present {
+  background-color: green;
+}
+
+.future{
+  background-color: yellow;
+}
