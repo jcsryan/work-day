@@ -14,25 +14,19 @@
     margin-right: 2px;
 }
 
-
-  
-  #outline {
-   
-   
+#outline {
     border: 1px solid grey;
   }
 
-  .title {
+.title {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  #timeNow{
-    width: 330px;
+#timeNow{
+    width: 340px;
     height: 40px;
- 
     border-radius: 5px;
-    color: rosybrown
-
+    color: black
   }
