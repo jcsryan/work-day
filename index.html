@@ -158,7 +158,7 @@
 
                            <div class="row1 col-1" id="23">11 PM</div>
                            <div class="col-9" id="outline">
-                               <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                               <input class="form-control" id="exampleFormControlTextarea1" rows="2"></input>
                            </div>
                             <div class="col-1"><button type="button" class="btn btn-outline-danger">Submit</button></div>
            </div>
@@ -220,6 +220,15 @@ function setColor(element, color) {
   element.style.backgroundColor = color;
 }
 
+//logic for listening for the 'enter' key in the text fields
+userInput = []
+$('#exampleFormControlTextarea1').keypress(function(event){
+    var keycode = (event.keyCode ? event.keyCode : event.which);
+    if(keycode == '13'){
+         localStorage.setItem(userInput, JSON.stringify('input'))
+         console.log(input)
+    }
+});
 
 
 
