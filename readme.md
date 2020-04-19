@@ -2,7 +2,7 @@ The daily planner application uses moment.js to keep the current time as well as
     Previous iterations of the program had to be changed because the row elements were not under the same parent element and jquery's documentation wasn't fast enough to save the text areas input to local storage when the button was clicked. Having a parent and sibling layout made the logic run more quickly. You can see the previous logic in prior iterations on this Github.    Github is refusing to show my .png image, cannot locate the cause.
  
  
- ![](misc/screenshot.png)
+ ![](images/screenshot.png)
   
 
    
