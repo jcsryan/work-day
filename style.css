@@ -1,18 +1,4 @@
-.col-1 {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 2px;
-    margin-right: 2px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
 
-.col-10 {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 2px;
-    margin-right: 2px;
-}
 
 #outline {
     border: 1px solid grey;
@@ -31,10 +17,6 @@
     color: black
   }
 
-.btn {
-  btn-primary
-  outline: solid 2px black;
-}
 
 .past{
   background-color: grey;
